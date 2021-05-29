@@ -24,7 +24,7 @@ Route::middleware(['auth'])->group(function () {
 	    return view('home');
 	});	
 
-	Route::get('/', function () {
+	Route::get('/home', function () {
 	    return view('home');
 	});	
 
